@@ -1,1 +1,8 @@
-<%= render "tasks/form", task: @task %>
+<div>
+  <h1>Edit Task</h1>
+  <%= render "tasks/form", task: @task %>
+  <br>
+  <hr>
+  <%= link_to "Back to list", tasks_path %>
+</div>
+
